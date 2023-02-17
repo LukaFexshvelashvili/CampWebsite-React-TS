@@ -1,0 +1,4 @@
+.Card {
+  flex-direction: column;
+  transition: 1s;
+}

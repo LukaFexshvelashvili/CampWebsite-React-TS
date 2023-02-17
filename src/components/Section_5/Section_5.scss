@@ -1,0 +1,37 @@
+.Section5 {
+    margin-top: 130px;
+    .lines {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .img-llg {
+            transition: 1s;
+        }
+    }
+    .lines:nth-child(1) {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Section5 {
+        margin-top: 130px;
+        display: flex;
+
+        .lines {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .img-llg {
+                margin: 40px 0;
+                transition: 1s;
+            }
+        }
+        .lines:nth-child(1) {
+            margin-bottom: 0px;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.Tasker {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.Tasker .log {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #4c40f7;
+}
+.Tasker .log img {
+  position: absolute;
+  height: 40%;
+}
+.Tasker p {
+  color: #6b6b6b;
+  font-family: p-regular;
+  font-size: 18px;
+  line-height: 32px;
+  padding-left: 20px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .Tasker .log {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    border-radius: 50%;
+    background-color: #4c40f7;
+  }
+  .Tasker .log img {
+    position: absolute;
+    height: 40%;
+  }
+  .Tasker P {
+    color: #6b6b6b;
+    font-family: p-regular;
+    font-size: 18px;
+    line-height: 32px;
+    padding-left: 15px;
+    margin: 0;
+  }
+}

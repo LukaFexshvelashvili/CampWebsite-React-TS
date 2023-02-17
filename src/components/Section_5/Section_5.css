@@ -1,0 +1,35 @@
+.Section5 {
+  margin-top: 130px;
+}
+.Section5 .lines {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Section5 .lines .img-llg {
+  transition: 1s;
+}
+.Section5 .lines:nth-child(1) {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 600px) {
+  .Section5 {
+    margin-top: 130px;
+    display: flex;
+  }
+  .Section5 .lines {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .Section5 .lines .img-llg {
+    margin: 40px 0;
+    transition: 1s;
+  }
+  .Section5 .lines:nth-child(1) {
+    margin-bottom: 0px;
+  }
+}

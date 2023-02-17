@@ -1,0 +1,45 @@
+.come1 {
+    transform: translateX(-300px) !important;
+    opacity: 0;
+}
+
+.come2 {
+    transform: translateX(300px) !important;
+    opacity: 0;
+}
+
+.come3 {
+    transform: scale(0) !important;
+    opacity: 0;
+}
+
+.come4 {
+    opacity: 0;
+}
+.come5 {
+    transform: translateY(200px) !important;
+    opacity: 0;
+}
+.come1alt {
+    transform: translateX(-300px) !important;
+    opacity: 0;
+}
+
+.come2alt {
+    transform: translateX(300px) !important;
+    opacity: 0;
+}
+
+.come3alt {
+    transform: scale(0.6);
+    opacity: 0;
+}
+
+.come4alt {
+    opacity: 0;
+}
+
+.come5alt {
+    transform: translateY(200px) !important;
+    opacity: 0;
+}

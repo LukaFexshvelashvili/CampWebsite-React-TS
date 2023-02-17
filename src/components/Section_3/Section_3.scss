@@ -1,0 +1,65 @@
+.Section3 {
+    padding: 100px 0;
+    background: #f9f9fd;
+}
+
+.flxer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .conterss {
+        width: 50%;
+        height: auto;
+        transition: 1s;
+    }
+    .cont__1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cont__2 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 80px;
+        h2 {
+            font-size: 56px;
+            font-family: p-semibold;
+            color: #111029;
+            line-height: 72px;
+        }
+        h3 {
+            font-size: 18px;
+            color: #6b6b6b;
+            line-height: 32px;
+            font-family: p-regular;
+            margin-top: 30px;
+        }
+    }
+    .Tasks-row {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .flxer {
+        flex-direction: column-reverse;
+        .conterss {
+            width: 100%;
+        }
+        .cont__2 {
+            padding-left: 0px;
+            transition: 1s;
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+    .cont__1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 40px;
+    }
+}

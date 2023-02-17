@@ -1,0 +1,13 @@
+.Section8 {
+  padding: 50px 0;
+  background: #f9f9fd;
+  padding-top: 30px;
+}
+
+.profile-rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}

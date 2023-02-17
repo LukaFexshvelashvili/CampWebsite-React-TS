@@ -1,0 +1,38 @@
+.img-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px;
+}
+.img-block img {
+  transition: 1s;
+}
+.img-block .blck1 {
+  position: absolute;
+  left: -50%;
+  bottom: 0;
+  height: 85%;
+  width: 140%;
+  background-color: #fe9602;
+  border-radius: 0 70% 0 0;
+  z-index: -2;
+}
+.img-block .blck2 {
+  position: absolute;
+  right: -50%;
+  height: 150%;
+  top: 0;
+  width: 90%;
+  background-color: #ff3b2f;
+  border-radius: 60% 0 0 50%;
+  z-index: -1;
+}
+
+@media (max-width: 600px) {
+  .img-block img {
+    width: 80%;
+  }
+}

@@ -1,0 +1,133 @@
+.Section6 {
+  margin-top: 200px;
+  padding: 100px 0;
+  width: 100%;
+  background: #fe9602;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Section6 .container .context {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.Section6 .container .context h2 {
+  font-size: 28px;
+  color: #ffffff;
+  line-height: 40px;
+  font-family: p-regular;
+  width: 730px;
+  text-align: center;
+  margin: auto;
+}
+.Section6 .container .context .bk1 {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 28px;
+  font-family: p-semibold;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+}
+.Section6 .container .context .bk2 {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 28px;
+  font-family: p-semibold;
+  text-align: center;
+  margin: auto;
+}
+.Section6 .container .context .sider {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.Section6 .container .context .sider .side {
+  height: 6px;
+  width: 20px;
+  border-radius: 5px;
+  background: #ffcc00;
+  margin: 4px;
+}
+.Section6 .container .context .sider .actside {
+  background: #ffffff;
+}
+.Section6 .container .context .lefter {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #ffffff;
+  left: 50px;
+}
+.Section6 .container .context .lefter img {
+  height: 25px;
+}
+.Section6 .container .context .righter {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #4c40f7;
+  right: 50px;
+}
+.Section6 .container .context .righter img {
+  height: 25px;
+}
+
+@media (max-width: 600px) {
+  .Section6 {
+    margin-top: 200px;
+    padding: 100px 0;
+    width: 100%;
+  }
+  .Section6 .container .context .sider .side {
+    height: 4px;
+    width: 15px;
+  }
+  .Section6 .container .context .bk1 {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 28px;
+    margin-top: 20px;
+  }
+  .Section6 .container .context .bk2 {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 28px;
+  }
+  .Section6 .container .context .crawls {
+    height: 70px;
+  }
+  .Section6 .container .context h2 {
+    font-size: 14px;
+    line-height: 20px;
+    width: 90%;
+  }
+  .Section6 .container .context .lefter {
+    height: 40px;
+    left: 0;
+  }
+  .Section6 .container .context .lefter img {
+    height: 25px;
+  }
+  .Section6 .container .context .righter {
+    height: 40px;
+    right: 0;
+  }
+  .Section6 .container .context .righter img {
+    height: 25px;
+  }
+}

@@ -1,0 +1,25 @@
+.corSplitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 100px;
+  transition: 1s;
+}
+.cors {
+  position: relative;
+  width: 50%;
+  transition: 0.3;
+}
+@media (max-width: 600px) {
+  .cor1_img {
+    width: 100%;
+  }
+  .corSplitter {
+    flex-direction: column-reverse;
+  }
+  .cors {
+    width: 100%;
+  }
+}

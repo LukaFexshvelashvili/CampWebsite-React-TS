@@ -1,0 +1,73 @@
+.Question {
+  position: relative;
+  max-height: 70px;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border: 2px solid #d8d8d8;
+  margin: 30px;
+  border-radius: 8px;
+  z-index: 3;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Question .start {
+  position: relative;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  min-height: 70px;
+  color: #111029;
+  font-family: p-medium;
+  padding: 0 20px;
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 24px;
+}
+.Question .start img {
+  position: absolute;
+  right: 20px;
+}
+
+.line {
+  height: 2px;
+  width: 98%;
+  margin: auto;
+  background: #d8d8d8;
+}
+
+.questAnswer {
+  margin: 20px 0px;
+  width: 100%;
+  color: #6b6b6b;
+  font-family: p-regular;
+  padding: 0 20px;
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.questActive {
+  border: 2px solid #4c40f7;
+  max-height: 180px;
+}
+
+@media (max-width: 600px) {
+  .Question {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .Question .start {
+    padding: 0 10px;
+    font-family: "Poppins";
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .questActive {
+    border: 2px solid #4c40f7;
+    max-height: 400px;
+  }
+}

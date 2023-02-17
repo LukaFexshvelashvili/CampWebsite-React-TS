@@ -1,0 +1,65 @@
+.Section3 {
+  padding: 100px 0;
+  background: #f9f9fd;
+}
+
+.flxer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flxer .conterss {
+  width: 50%;
+  height: auto;
+  transition: 1s;
+}
+.flxer .cont__1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flxer .cont__2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 80px;
+}
+.flxer .cont__2 h2 {
+  font-size: 56px;
+  font-family: p-semibold;
+  color: #111029;
+  line-height: 72px;
+}
+.flxer .cont__2 h3 {
+  font-size: 18px;
+  color: #6b6b6b;
+  line-height: 32px;
+  font-family: p-regular;
+  margin-top: 30px;
+}
+.flxer .Tasks-row {
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .flxer {
+    flex-direction: column-reverse;
+  }
+  .flxer .conterss {
+    width: 100%;
+  }
+  .flxer .cont__2 {
+    padding-left: 0px;
+    transition: 1s;
+  }
+  .flxer .cont__2 h2 {
+    text-align: center;
+  }
+  .cont__1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}

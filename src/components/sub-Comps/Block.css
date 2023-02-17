@@ -1,0 +1,40 @@
+.block-Mod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  height: 300px;
+  width: 270px;
+  background: #ffffff;
+  box-shadow: 0px 25px 100px rgba(76, 64, 247, 0.08);
+  border-radius: 20px;
+  padding: 0 10px;
+  transform: skewX(3deg);
+  transition: 1s;
+}
+.block-Mod .nums {
+  text-align: center;
+  font-family: p-semibold;
+  font-size: 56px;
+  line-height: 72px;
+}
+.block-Mod .desc {
+  text-align: center;
+  color: #111029;
+  font-size: 18px;
+  font-family: p-regular;
+  line-height: 32px;
+}
+
+.goup {
+  transform: translateY(50px) skewX(3deg);
+  margin-right: 50px;
+}
+
+@media (max-width: 600px) {
+  .goup {
+    transform: skewX(3deg);
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,40 @@
+.Section7 {
+  height: auto;
+  padding: 100px 0;
+  padding-bottom: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg1 {
+  position: absolute;
+  right: 0;
+  top: -50%;
+  z-index: -1;
+}
+
+.bg2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.quest-row {
+  margin-top: 60px;
+  height: 900px;
+}
+
+@media (max-width: 600px) {
+  .Section7 {
+    height: auto;
+    padding: 50px 0;
+    padding-bottom: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  .quest-row {
+    margin-top: 40px;
+    height: 600px;
+  }
+}

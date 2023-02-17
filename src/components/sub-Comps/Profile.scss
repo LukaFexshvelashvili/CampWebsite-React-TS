@@ -1,0 +1,54 @@
+.profileBlock {
+    margin: 20px;
+    display: flex-inline;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    height: 360px;
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    .profimg {
+        margin: auto;
+        transform: translateY(-60px);
+
+        img {
+            margin-bottom: 30px;
+        }
+    }
+    .name-work {
+        transform: translateY(-60px);
+
+        .name {
+            font-size: 24px;
+            line-height: 32px;
+            color: #111029;
+            font-family: p-semibold;
+            margin-bottom: 2px;
+        }
+        .work {
+            font-size: 16px;
+            line-height: 24px;
+            color: #abafc7;
+            font-family: p-medium;
+        }
+    }
+    .prfileDesc {
+        transform: translateY(-60px);
+
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 32px;
+        color: #70798b;
+        font-family: p-regular;
+    }
+}
+
+.stars-row {
+    transform: translateY(-30px);
+
+    img {
+        margin-left: 7px;
+    }
+}
