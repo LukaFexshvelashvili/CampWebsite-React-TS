@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/CampWebsite-React-TS/static/css/main.2b7e2aba.css",
+    "main.js": "/CampWebsite-React-TS/static/js/main.57a06f95.js",
+    "static/media/vid.png": "/CampWebsite-React-TS/static/media/vid.24562fe0e958c5e2c003.png",
+    "static/media/starter.png": "/CampWebsite-React-TS/static/media/starter.fe89a7e089884033ad27.png",
+    "static/media/Image4.png": "/CampWebsite-React-TS/static/media/Image4.ab6241a30f20356d07d0.png",
+    "static/media/Image2.png": "/CampWebsite-React-TS/static/media/Image2.f58b1e50fa43c22c0c67.png",
+    "static/media/Image.png": "/CampWebsite-React-TS/static/media/Image.521b41880d80f9a2805b.png",
+    "static/media/Image3.png": "/CampWebsite-React-TS/static/media/Image3.e6a35c9f8ff999958708.png",
+    "static/media/Image5.png": "/CampWebsite-React-TS/static/media/Image5.56c4f8e0c3d192f63b91.png",
+    "static/media/Poppins-Regular.ttf": "/CampWebsite-React-TS/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/CampWebsite-React-TS/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/CampWebsite-React-TS/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/Poppins-Bold.ttf": "/CampWebsite-React-TS/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/Image1.png": "/CampWebsite-React-TS/static/media/Image1.c9397902d737cddc511a.png",
+    "static/media/Ellipse-4.png": "/CampWebsite-React-TS/static/media/Ellipse-4.875e45a1d6dca431b1aa.png",
+    "static/media/Ellipse.png": "/CampWebsite-React-TS/static/media/Ellipse.5e557d8ea330323c10a6.png",
+    "static/media/Ellipse-2.png": "/CampWebsite-React-TS/static/media/Ellipse-2.253421739949e1832f67.png",
+    "static/media/bgline.png": "/CampWebsite-React-TS/static/media/bgline.6a8961f97645b446f63d.png",
+    "static/media/Ellipse-5.png": "/CampWebsite-React-TS/static/media/Ellipse-5.7ad73d45d45ec7259c10.png",
+    "static/media/Ellipse-1.png": "/CampWebsite-React-TS/static/media/Ellipse-1.34d1407d175558286f97.png",
+    "static/media/Ellipse-3.png": "/CampWebsite-React-TS/static/media/Ellipse-3.1353eab3ac4002bc92ba.png",
+    "static/media/Map.png": "/CampWebsite-React-TS/static/media/Map.c7b7df8a6ca7c7b930ac.png",
+    "static/media/Section6.png": "/CampWebsite-React-TS/static/media/Section6.96fed719b010e71004e8.png",
+    "static/media/bgpurple.png": "/CampWebsite-React-TS/static/media/bgpurple.8039bd141dd506c64d3a.png",
+    "index.html": "/CampWebsite-React-TS/index.html",
+    "main.2b7e2aba.css.map": "/CampWebsite-React-TS/static/css/main.2b7e2aba.css.map",
+    "main.57a06f95.js.map": "/CampWebsite-React-TS/static/js/main.57a06f95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b7e2aba.css",
+    "static/js/main.57a06f95.js"
+  ]
+}
